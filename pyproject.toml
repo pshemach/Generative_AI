@@ -4,4 +4,25 @@ version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.11"
-dependencies = []
+dependencies = [
+    "accelerate>=0.26.0",
+    "bitsandbytes>=0.47.0",
+    "chromadb>=1.1.0",
+    "docx2txt>=0.9",
+    "langchain>=0.3.27",
+    "langchain-chroma>=0.2.6",
+    "langchain-community>=0.3.30",
+    "langchain-groq>=0.3.8",
+    "langchain-openai>=0.3.33",
+    "langchain-tavily>=0.2.11",
+    "langgraph>=0.6.7",
+    "langsmith>=0.4.31",
+    "pydantic>=2.11.9",
+    "pypdf>=6.1.0",
+    "python-dotenv>=1.1.1",
+    "rank-bm25>=0.2.2",
+    "scikit-learn>=1.7.2",
+    "sentence-transformers>=5.1.1",
+    "transformers>=4.56.2",
+    "unstructured>=0.18.15",
+]
