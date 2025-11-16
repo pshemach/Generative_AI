@@ -24,6 +24,12 @@ dependencies = [
     "rank-bm25>=0.2.2",
     "scikit-learn>=1.7.2",
     "sentence-transformers>=5.1.1",
+    "strands-agents[anthropic]>=1.13.0",
+    "strands-agents-builder>=0.1.10",
+    "strands-agents-tools>=0.2.12",
     "transformers>=4.56.2",
     "unstructured>=0.18.15",
+    "bs4>=0.0.2",
+    "pandas>=2.3.3",
+    "faiss-cpu>=1.12.0",
 ]
